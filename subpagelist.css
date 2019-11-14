@@ -1,0 +1,100 @@
+.subbig {
+
+      width: 1500px;
+      margin: 0 auto;
+
+    }
+    .subleft {
+      float: left;
+      position: static;
+      text-align: center;
+      display: inline-block;
+      width: 350px;
+      height: 500px;
+      background-color: green;
+    }
+    .subright {
+
+      position: static;
+      text-align: center;
+      background-color: red;
+      width: 1150px;
+      height: 500px;
+      display: inline-block;
+    }
+    .freedom , .lmenu {
+      font-size: 25px;
+    }
+    .freedom:link {
+      color: black; text-decoration: none;
+    }
+    .freedom:visited {
+        color: black; text-decoration: underline;
+    }
+    .freedom:hover {
+        color: black; text-decoration: none;
+    }
+    .lmenu:link {
+      color: black; text-decoration: none;
+    }
+    .lmenu:visited {
+        color: black; text-decoration: underline;
+    }
+    .lmenu:hover {
+        color: black; text-decoration: none;
+    }
+    .rmain {
+      margin: 30px 140px 100px 120px;
+      padding: 20px;
+      display: block;
+      width: 600px;
+      height: 60%;
+      border: solid 5px #444444;
+    }
+    .lmain {
+      padding-right:20px;
+      padding-left: 25px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .lmain ul {
+      list-style: none;
+    }
+
+    .lmain ul li {
+      margin-right: 10px;
+      padding-bottom: 3px;
+      font-size: 12px;
+      display: block;
+      padding-right: 10px;
+      background-color: #9FC93C;
+    }
+    li {
+      border: solid 2px  #444444;
+      margin-bottom: 5px;
+    }
+    .btnmn:link {
+      color: black; text-decoration: none;
+    }
+    .btnmn:visited {
+        color: black; text-decoration: underline;
+    }
+    .btnmn:hover {
+        color: black; text-decoration: none;
+    }
+    .ltitle {
+      margin-bottom: 40px;
+    }
+    #footer{
+      width: 100%;
+      height: 100px;
+      padding:20px;
+      background-color: #ccc;
+      position: absolute;
+      bottom: 0;
+      font-family: 'Poiret One', cursive;
+    }
+    .footer{
+      position: relative;
+      content: "";
+    }
