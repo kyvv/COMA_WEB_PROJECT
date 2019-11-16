@@ -48,27 +48,26 @@
 }
 #notice_list{
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 52px;
 }
 #noticelist, #projectlist
 {
   list-style-type: none;
   display: inline-block;
-  width:450px;
-  padding-left: 10px;
+  width:470px;
 }
 #notice, #project{
   background: #f2f2f2;
-  width:450px;
+  width:470px;
 }
 #notice_project_list h2{
-  width:450px;
+  width:470px;
   padding:5px 15px;
   color:#6699ff;
   border-bottom: 1px solid #3366ff;
 }
 #noticelist li, #projectlist li{
-  padding: 10px 5px;
+  padding: 10px 0;
   border-bottom: 1px solid #cccccc;
   position: relative;
   overflow: hidden;
@@ -79,6 +78,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-left: 10px;
 }
 #noticelist span, #projectlist span{
   position: absolute;

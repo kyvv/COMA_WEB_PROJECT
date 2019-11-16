@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .list:before,
 .list:after {
   content: " ";
@@ -74,7 +77,7 @@
   background-color: #34495e;
   position: relative;
   overflow: hidden;
-  
+
 }
 
 .submenu1 > li > a {

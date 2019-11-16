@@ -1,7 +1,7 @@
 .subbig {
 
       width: 1500px;
-      margin: 0 auto;
+      margin: 50px auto;
 
     }
     .subleft {
@@ -9,15 +9,15 @@
       position: static;
       text-align: center;
       display: inline-block;
-      width: 350px;
+      width: 200px;
       height: 500px;
-      background-color: green;
+      background-color: ;
     }
     .subright {
 
       position: static;
       text-align: center;
-      background-color: red;
+
       width: 1150px;
       height: 500px;
       display: inline-block;
@@ -49,29 +49,42 @@
       display: block;
       width: 600px;
       height: 60%;
-      border: solid 5px #444444;
+      /*border: solid 5px #444444;*/
     }
     .lmain {
       padding-right:20px;
-      padding-left: 25px;
+
       margin: 0 auto;
       text-align: center;
     }
     .lmain ul {
       list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #FFFFFF;
     }
 
     .lmain ul li {
       margin-right: 10px;
       padding-bottom: 3px;
       font-size: 12px;
-      display: block;
+      /*display: block;*/
       padding-right: 10px;
-      background-color: #9FC93C;
+
     }
-    li {
-      border: solid 2px  #444444;
-      margin-bottom: 5px;
+    .leftul li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+      border-bottom: solid 1px #A4A4A4;
+       /*border: solid 2px  #444444;
+      margin-bottom: 5px;*/
+    }
+    .leftul li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
     }
     .btnmn:link {
       color: black; text-decoration: none;
@@ -83,18 +96,13 @@
         color: black; text-decoration: none;
     }
     .ltitle {
-      margin-bottom: 40px;
-    }
-    #footer{
-      width: 100%;
+      text-align: center;
+      background-color: #CED8F6;
       height: 100px;
-      padding:20px;
-      background-color: #ccc;
-      position: absolute;
-      bottom: 0;
-      font-family: 'Poiret One', cursive;
+      margin-right: 20px;
     }
-    .footer{
-      position: relative;
-      content: "";
+    .cenltitle {
+      margin-top: 30px;
+      display: inline-block;
+      width: 70%;
     }
